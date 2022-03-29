@@ -1,10 +1,11 @@
-# Evaluacion Por Competencia [![Cult Of Martians][cult-img]][cult]
+# Evaluacion Por Competencia [![Cult Of Martians][cult]][cult]
 
 <img src="https://ai.github.io/size-limit/logo.svg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
-Este proyecto se trata de un backend para la aplicacion de Evaluación por competencia.
-Se ejemplifica como correrlo junto con el frontend
+Este proyecto se trata de un backend por medio de una API, elavorada con laravel 
+y para el proposito de la aplicacion de Evaluación por competencia.
+Primero se detalla como conectar la parte de Lara
 
 **Ingredientes:** 
 * Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
