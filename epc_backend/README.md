@@ -9,7 +9,7 @@ Primero se detalla como Poner en servicio este backend laravel con servidor loca
 y por ultimo se detalla como conectarlo con el frontend(angular).
 
 
-**Ingredientes(API laravel):** 
+**Ingredientes(API laravel - local):** 
 * **Xampp:**<br>
   Xampp nos permite montar un servidor web en el local, lo que nos permite desarrollar nuestra aplicación viendo su comportamiento y funcion.
 * **Laravel(Composer):**<br>
@@ -19,6 +19,8 @@ y por ultimo se detalla como conectarlo con el frontend(angular).
   Nos ayudará a versionar nuestro poroyecto, además de poder hacer un correcto deployment y sin complicaciones.
 * **Visual Studio Code:**<br>
   Es un editor de codigo muy comodo y libre. 
+
+
 
 <p align="center">
   <img src="./img/example.png" alt="Size Limit CLI" width="738">
@@ -52,6 +54,21 @@ We are using [Statoscope] for this analysis.
 [Statoscope]:    https://github.com/statoscope/statoscope
 [cult-img]:      http://cultofmartians.com/assets/badges/badge.svg
 [cult]:          http://cultofmartians.com/tasks/size-limit-config.html
+
+## Instalacion de Xampp
+
+Xampp es un software que se tiene que descargar en desde la pagina de apachefriends.org.
+* [Download-Xampp](https://www.apachefriends.org/es/download.html) - El primer lanzamiento (version) de las aventuras de Gigamesh II.
+
+### Prerequisitos
+
+Si tu intencion es solo jugar el juego no necesitas mas que entrar a cuelquiera de los siguientes links:
+
+
+* [GigameshII-SR](https://github.com/Pedejeca135/Gigamesh2D) - Aqui habra un segundo lanzamiento de las aventuras de Gigamesh II.
+
+Cabe mencionar que muchas veces el sitio web de Greenfoot no funciona correctamente y no deja jugar esta y otras joyas, por lo que si ese es el caso, recomiendo descargar el editor de Greenfoot para lo cual se necesita un sistema operaivo de 64 bits. Si no es asi puedes buscar [versiones anteriores](https://www.greenfoot.org/download_old). Tambien necesitaras una copia comprmida de este repositorio del juego. Si no sabes como hacerlo. No te preocupes, a continuación explico como.
+
 
 ## Instalacion de Xampp
 
