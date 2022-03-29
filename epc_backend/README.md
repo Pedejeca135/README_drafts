@@ -1,13 +1,12 @@
-# Size Limit [![Cult Of Martians][cult-img]][cult]
+# Evaluacion Por Competencia [![Cult Of Martians][cult-img]][cult]
 
 <img src="https://ai.github.io/size-limit/logo.svg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
-Size Limit is a performance budget tool for JavaScript. It checks every commit
-on CI, calculates the real cost of your JS for end-users and throws an error
-if the cost exceeds the limit.
+Este proyecto se trata de un backend para la aplicacion de Evaluación por competencia.
+Se ejemplifica como correrlo junto con el frontend
 
-* **ES modules** and **tree-shaking** support.
+**Ingredientes:** 
 * Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
   or another CI system to know if a pull request adds a massive dependency.
 * **Modular** to fit different use cases: big JS applications
