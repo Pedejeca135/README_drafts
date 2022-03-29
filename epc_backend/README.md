@@ -10,14 +10,14 @@ y por ultimo se detalla como conectarlo con el frontend(angular).
 
 
 **Ingredientes(API laravel):** 
-* **Xampp:**
+* **Xampp:**<br>
   Xampp nos permite montar un servidor web en el local, lo que nos permite desarrollar nuestra aplicación viendo su comportamiento y funcion.
-* **Laravel(Composer):**
+* **Laravel(Composer):**<br>
   Laravel es la base funciona del proyecto , el framework designado para la tarea del backend.
   Composer: Es un gestor de dependencias para entornos PHP.
-* **Git:**
+* **Git:**<br>
   Nos ayudará a versionar nuestro poroyecto, además de poder hacer un correcto deployment y sin complicaciones.
-* **Visual Studio Code:**
+* **Visual Studio Code:**<br>
   Es un editor de codigo muy comodo y libre. 
 
 <p align="center">
