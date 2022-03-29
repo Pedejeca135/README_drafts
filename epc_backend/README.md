@@ -1,22 +1,24 @@
-# Evaluacion Por Competencia [![Cult Of Martians][cult]][cult]
+# Evaluacion Por Competencia 
 
 <img src="https://ai.github.io/size-limit/logo.svg" align="right"
      alt="Size Limit logo by Anton Lovchikov" width="120" height="178">
 
-Este proyecto se trata de un backend por medio de una API, elavorada con laravel 
-y para el proposito de la aplicacion de Evaluación por competencia.
-Primero se detalla como conectar la parte de Lara
+Este repositorio contiene un backend a manera de API, elavorada con laravel 
+y para el proposito de servir la aplicacion front del proyecto "Evaluación por competencia".
+Primero se detalla como Poner en servicio este backend laravel con servidor local xampp.
+y por ultimo se detalla como conectarlo con el frontend(angular).
 
-**Ingredientes:** 
-* Add Size Limit to **Travis CI**, **Circle CI**, **GitHub Actions**
-  or another CI system to know if a pull request adds a massive dependency.
-* **Modular** to fit different use cases: big JS applications
-  that use their own bundler or small npm libraries with many files.
-* Can calculate **the time** it would take a browser
-  to download and **execute** your JS. Time is a much more accurate
-  and understandable metric compared to the size in bytes.
-* Calculations include **all dependencies and polyfills**
-  used in your JS.
+
+**Ingredientes(API laravel):** 
+* Xampp:
+  Xampp nos permite montar un servidor web en el local, lo que nos permite desarrollar nuestra aplicación viendo su comportamiento y funcion.
+* Laravel(Composer):
+  Laravel es la base funciona del proyecto , el framework designado para la tarea del backend.
+  Composer: Es un gestor de dependencias para entornos PHP.
+* Git:
+  Nos ayudará a versionar nuestro poroyecto, además de poder hacer un correcto deployment y sin complicaciones.
+* Visual Studio Code:
+  Es un editor de codigo muy comodo y libre. 
 
 <p align="center">
   <img src="./img/example.png" alt="Size Limit CLI" width="738">
@@ -51,36 +53,18 @@ We are using [Statoscope] for this analysis.
 [cult-img]:      http://cultofmartians.com/assets/badges/badge.svg
 [cult]:          http://cultofmartians.com/tasks/size-limit-config.html
 
-## Who Uses Size Limit
+## Instalacion de Xampp
 
 * [MobX](https://github.com/mobxjs/mobx)
 * [Material-UI](https://github.com/callemall/material-ui)
 * [Autoprefixer](https://github.com/postcss/autoprefixer)
-* [PostCSS](https://github.com/postcss/postcss) reduced
-  [25% of the size](https://github.com/postcss/postcss/commit/150edaa42f6d7ede73d8c72be9909f0a0f87a70f).
-* [Browserslist](https://github.com/browserslist/browserslist) reduced
-  [25% of the size](https://github.com/browserslist/browserslist/commit/640b62fa83a20897cae75298a9f2715642531623).
-* [EmojiMart](https://github.com/missive/emoji-mart) reduced
-  [20% of the size](https://github.com/missive/emoji-mart/pull/111)
-* [nanoid](https://github.com/ai/nanoid) reduced
-  [33% of the size](https://github.com/ai/nanoid/commit/036612e7d6cc5760313a8850a2751a5e95184eab).
-* [React Focus Lock](https://github.com/theKashey/react-focus-lock) reduced
-  [32% of the size](https://github.com/theKashey/react-focus-lock/pull/48).
-* [Logux](https://github.com/logux) reduced
-  [90% of the size](https://github.com/logux/logux-client/commit/62b258e20e1818b23ae39b9c4cd49e2495781e91).
 
 
-## How It Works
+## Instalacion de Composer
 
 1. Size Limit contains a CLI tool, 3 plugins (`file`, `webpack`, `time`)
    and 3 plugin presets for popular use cases (`app`, `big-lib`, `small-lib`).
    A CLI tool finds plugins in `package.json` and loads the config.
-2. If you use the `webpack` plugin, Size Limit will bundle your JS files into
-   a single file. It is important to track dependencies and webpack polyfills.
-   It is also useful for small libraries with many small files and without
-   a bundler.
-3. The `webpack` plugin creates an empty webpack project, adds your library
-   and looks for the bundle size difference.
 4. The `time` plugin compares the current machine performance with that of
    a low-priced Android devices to calculate the CPU throttling rate.
 5. Then the `time` plugin runs headless Chrome (or desktop Chrome if it’s
